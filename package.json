@@ -1,25 +1,19 @@
 {
-  "name": "restful-teste",
+  "name": "restful",
   "version": "1.0.0",
-  "description": "curso hcode sobre node",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Demershow/restful-node.git"
-  },
-  "author": "Demerson",
+  "author": "Hcode Treinamentos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Demershow/restful-node/issues"
-  },
-  "homepage": "https://github.com/Demershow/restful-node#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.18.2",
     "consign": "^0.1.6",
-    "express": "^4.18.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
     "nedb": "^1.8.0"
   }
 }
