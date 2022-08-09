@@ -7,7 +7,7 @@ module.exports = function (app) {
         res.json({
             users: [{
                 name: 'Demerson',
-                email: 'sim',
+                email: 'demersontorres520@gmail.com',
                 id: 'oi',
 
             }]
@@ -20,8 +20,7 @@ module.exports = function (app) {
         res.statusCode = 200;
         res.setHeader('Content-type', 'application/json');
         res.json({
-            users: [{
-            }]
+            users: [{}]
         });
 
     })
